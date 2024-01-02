@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 [System.Serializable]
 public class ButtonObjectPair02
@@ -38,6 +39,8 @@ public class Content02 : MonoBehaviour
         ActivateGameObjects(currentPair.gameObjects);
 
         lastClickedButton = currentPair.button;
+
+        StartCoroutine(DeactivateAfterDelay(currentPair.gameObjects, 60f)); // Activate the timer
     }
 
     void ActivateGameObjects(GameObject[] gameObjects)
@@ -54,5 +57,12 @@ public class Content02 : MonoBehaviour
         {
             go.SetActive(false);
         }
+    }
+
+    IEnumerator DeactivateAfterDelay(GameObject[] gameObjects, float delay)
+    {
+        yield return new WaitForSeconds(delay); // Wait for specified duration
+
+        DeactivateGameObjects(gameObjects); // Deactivate after the delay
     }
 }

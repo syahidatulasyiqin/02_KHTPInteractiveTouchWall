@@ -1,0 +1,12 @@
+Game Path/Location:
+C:\Interactive Wall\KHTP The Journey
+
+Control:
+Escape = Quit App
+
+If application cannot be open:
+Ensure Application "KHTP The Journey" inside folder "Interactive Wall"
+
+To replace the latest application folder:
+- Delete main folder in "C:\Interactive Wall"
+- Drag/Copy the folder "Interactive Wall" to "C:"

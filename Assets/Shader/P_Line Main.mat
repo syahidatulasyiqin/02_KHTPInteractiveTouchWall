@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_405a0d8e0e9b41539a0eaac5cf3cbcbc: 0
+    - Boolean_405a0d8e0e9b41539a0eaac5cf3cbcbc: 1
     - Boolean_cf43a436a64246bfb9c42c8f74e60c02: 0
     - TilingDashes: -200
     - Value: 1
@@ -113,7 +113,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 2.1296391, b: 16.94838, a: 1}
+    - _Color: {r: 0, g: 1.0648196, b: 8.47419, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
